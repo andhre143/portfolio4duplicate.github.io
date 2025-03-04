@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balabat Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: white;
+            text-align: center;
+        }
+
+        .header {
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: rgb(255, 251, 0);
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px auto;
+            max-width: 600px;
+            background: #111;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .profile h2 {
+            margin: 10px 0;
+            font-size: 2rem;
+        }
+
+        .profile p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+
+        .social-icons {
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        .social-icons a:hover {
+            color: rgb(235, 231, 14);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: rgb(255, 166, 0);
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: rgb(253, 166, 5);
+        }
+
+        .nav {
+            background: #111;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .nav a:hover {
+            color: rgb(233, 137, 11);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+		<a href="https://andhre143.github.io/balabatpit4.github.io/">Courses</a>
+    </div>
+
+    <div id="home" class="header">
+        <h1>Welcome to My Portfolio</h1>
+    </div>
+
+    <div id="about" class="profile">
+        <img src="rhean.jpg" alt="Profile Picture">
+        <h2>Hi, I'm Rhean</h2>
+        <h3>I'm a <span style="color: rgb(207, 143, 5);">Student</span></h3>
+        <p>As a dedicated programmer with expertise in web development, coding, and problem-solving, I am an IT student who is ready to learn and develop new ideas.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+        </div>
+        <a href="#" class="btn">Hire Me!</a>
+    </div>
+
+</body>
+</html>
